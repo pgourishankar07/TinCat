@@ -1,0 +1,41 @@
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,92,1) 9%, rgba(0,212,255,1) 100%);
+}
+button{
+    margin: 20px 60px 40px 80px;
+    border-radius:20px 60px 40px 80px ;
+}
+
+.rotated{
+    transform: rotate(25deg);
+    position: absolute;
+
+}
+.container-fluid,.test2{
+    background-color: #ffd384;
+}
+.hover1:hover {
+    background-color: #372948;
+    
+    color: #ffd384;
+    border-radius: 10px;
+  }
+.test {
+    background-color: #B6E388;
+    
+}
+.hovr2:hover{
+    background-color: #372948;
+    font-weight: bolder;
+    color: aliceblue;
+    font-size: large;
+}
+
+.title-img{
+    position: relative;
+    z-index: 1;
+}
+#foot{
+    text-align:center
+}
